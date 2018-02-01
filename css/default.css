@@ -49,51 +49,51 @@ body{
 	}
 
 
-	.col-1{
+	.col.col-1{
 		flex: 0 0 8.33333333%;
 		max-width: 8.33333333%;
 	}
-	.col-2{
+	.col.col-2{
 		flex: 0 0 16.66666667%;
 		max-width: 16.66666667%;
 	}
-	.col-3{
+	.col.col-3{
 		flex: 0 0 25%;
 		max-width: 25%;
 	}
-	.col-4{
+	.col.col-4{
 		flex: 0 0 33.33333333%;
 		max-width: 33.33333333%;
 	}
-	.col-5{
+	.col.col-5{
 		flex: 0 0 41.66666667%;
 		max-width: 41.66666667%;
 	}
-	.col-6{
+	.col.col-6{
 		flex: 0 0 50%;
 		max-width: 50%;
 	}
-	.col-6{
+	.col.col-7{
 		flex: 0 0 58.33333333%;
 		max-width: 58.33333333%;
 	}
-	.col-8{
+	.col.col-8{
 		flex: 0 0 66.66666667%;
 		max-width: 66.66666667%;
 	}
-	.col-9{
+	.col.col-9{
 		flex: 0 0 75%;
 		max-width: 75%;
 	}
-	.col-10{
+	.col.col-10{
 		flex: 0 0 83.33333333%;
 		max-width: 83.33333333%;
 	}
-	.col-11{
+	.col.col-11{
 		flex: 0 0 91.66666667%;
 		max-width: 91.66666667%;
 	}
-	.col-12{
+	.col.col-12{
 		flex: 0 0 100%;
 		max-width: 100%;
 	}
@@ -116,7 +116,7 @@ a:hover, a:focus{color: #23527c;}
 a:visited{color:#c34f4a;}
 
 /* -------------- Botões ------------------- */
-.botao, button, 
+.botao, button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"]{
@@ -133,10 +133,10 @@ text-decoration: none;
 background-color: #fff;
 border-right: 2px;
 border: 1px solid #bbb;
-box-sizing: border-box;		
+box-sizing: border-box;
 }
 
-.botao:hover, button:hover, 
+.botao:hover, button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover{
@@ -144,7 +144,7 @@ input[type="button"]:hover{
 	color:#333;
 }
 
-.botao:focus, button:focus, 
+.botao:focus, button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus{
@@ -153,14 +153,14 @@ input[type="button"]:focus{
 	outline: 0;
 }
 
-.botao:active, button:active, 
+.botao:active, button:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active{
 	box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
 
-.botao.destacado, button.botao.destacado, 
+.botao.destacado, button.botao.destacado,
 input[type="submit"].botao.destacado,
 input[type="reset"].botao.destacado,
 input[type="button"].botao.destacado{
@@ -169,11 +169,11 @@ input[type="button"].botao.destacado{
 	color:#fff;
 }
 
-.botao.destacado:hover, button.botao.destacado:hover, 
+.botao.destacado:hover, button.botao.destacado:hover,
 input[type="submit"].botao.destacado:hover,
 input[type="reset"].botao.destacado:hover,
 input[type="button"].botao.destacado:hover,
-.botao.destacado:focus, button.botao.destacado:focus, 
+.botao.destacado:focus, button.botao.destacado:focus,
 input[type="submit"].botao.destacado:focus,
 input[type="reset"].botao.destacado:focus,
 input[type="button"].botao.destacado:focus{
@@ -277,7 +277,7 @@ label{
 	margin-bottom: .4rem;
 }
 /* -------------- Utilidades --------------- */
-.fluxo{
+.width-100{
 	box-sizing: border-box;
 	width:100%;
 }

@@ -2,3 +2,168 @@ body{
 	margin: 0;
 	padding: 0;
 }
+
+/* cores 
+#1d1c21
+#f2a519
+*/
+
+/* MENU */
+.menu {
+  background-color: #1d1c21; }
+
+nav.nav {
+  position: relative; }
+
+.nav.hamburger {
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  padding: 1rem;
+  cursor: pointer; }
+
+.nav.logo {
+  display: inline-block;
+  padding: 1rem 0 .3rem; }
+
+.nav a {
+  transition: all .3s;
+  display: inline-block;
+  color: #f2a519;
+  text-decoration: none;
+  padding: 2.5rem;
+  padding-left: 0; }
+
+.nav a:visited {
+  color: #f2a519; }
+
+.nav.menu a:hover {
+  background-color: #F2C640;
+  cursor: pointer;
+  color: #fff;
+  transition: all .3s; }
+
+.nav.menu {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  max-height: 0;
+  overflow: hidden;
+  transition: all ease-in-out .2s; }
+
+.nav.menu.aberto {
+  max-height: 30rem;
+  text-align: center; }
+
+@media screen and (min-width: 799px) {
+  .nav.link {
+    padding-left: 2.5rem; }
+  .nav.menu {
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    max-height: 20rem; }
+  .nav.hamburger {
+    display: none; } }
+/* FIM DO MENU */
+
+/* BANNER */
+.banner{
+  width:100%;
+  height:700px;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* FIM DO BANNER */
+
+/* SOBRE */
+.sobre{
+  padding: 100px 20px;
+}
+.sobre-nome{
+  margin: 50px auto;
+  width: 600px;
+  text-align: end;
+  color:#f2a519;
+  background-color: #1d1c21;
+  padding-right: 80px;
+}
+.sobre-img{
+  margin-top: -117px;
+  float:left;
+}
+.sobre-p{
+  float: right;
+  width: 700px;
+}
+/* FIM DO SOBRE */
+
+/* SERVICOS */
+.servicos{
+  display:flex;
+}
+.servico-item{
+  width:33.33%;
+}
+.servico-foto{
+  height:350px;
+  max-width:100%;
+}
+.servico-icon{
+  display: block;
+  margin: 0 auto;
+}
+.servico-p{
+  padding: 20px;
+}
+.servico-info{
+  height:350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* FIM DO SERVICOS */
+
+/* BANNER FIXO */
+.banner-fixo{
+    width: 100%;
+    height: 450px;
+    background-image: url(../img/banner-fixo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* BANNER FIXO */
+
+/* FOOTER */
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #1d1c21;
+}
+.logo img{
+  max-width: 100%;
+}
+.footer .logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .contato{
+  text-align: center;
+  border-left: 1px solid #606060;
+  border-right: 1px solid #606060;
+}
+.footer .contato span{
+  color:#707070;
+}
+.footer .midias{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}

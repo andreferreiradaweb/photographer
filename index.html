@@ -6,18 +6,138 @@
 	<title>Default css framework</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slider.css">
 </head>
 <body>
 
-
+<!-- ---------------------- MENU ---------------------->
+	<a name="home"></a>
+	<div id="menu" class="menu">
 	<div class="container">
+		<nav class="row nav">
+			<div class="nav hamburger">
+				<img src="img/menu.png" alt="Icon Menu" width="25" height="25">
+			</div>
+			<div class="col col-4">
+				<a href="index.html" class="nav logo">
+					<img src="img/logo.png" alt="Imagem Logo" width="70" height="55">
+				</a>
+			</div>
+			<div class="col col-8 nav menu">
+				<a href="index.html" class="nav link">Home</a>
+				<a href="#servicos" class="nav link">Serviços</a>
+				<a href="#deals" class="nav link">Promoções</a>
+				<a href="#about" class="nav link">Sobre</a>
+				<a href="#contact" class="nav link">Contatos</a>
+			</div>	
+		</nav>
+	</div>
+	</div>
+
+<!-------------- BANNER -------------------->
+	
+	<section class="banner"></section>
+
+<!------------------ SOBRE ---------------------->
+	<div class="container sobre">
 		<div class="row">
 			<div class="col col-12">
-				oi
+				<h1 class="sobre-nome">Cesar Silva Fotografia</h1>
+				<img src="img/sobre-img2.png" alt="Foto do Cesar Silva Fotógrafo" class="sobre-img" width="200" height="200">
+				<p class="sobre-p">
+					“Olá, Como andam as preparações para o dia mais importante da sua vida? 
+					Eu, sou César Silva, fotografo especializado em fotografia de casamento,
+					fotos debutante, book externo e pre-wedding de casal, e irei revelar como
+					você pode eternizzar seu casamento ou sua festa de debutante
+					com muita sensibilidade, qualidade e técnica.”
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<!------------------ SERVICOS ---------------------->
+	<div class="cont-servicos">
+	<div class="servicos">
+
+		<div class="servico-item">
+			<img src="img/wedding.jpg" alt="" class="servico-foto">
+			<div class="servico-info">
+				<img src="img/camera.png" alt="" class="servico-icon" width="50"
+			height="40">
+			<p class="servico-p"> 
+				O amor da Tati e do Daniel {Ensaio pré-casamento} | Bauru-SP
+				Não há como amar e não ser surpreendido por ele, pelo amor. 
+				Quando amamos, damos asas às nossas almas, damos 
+				infinitude ao nosso coração. Tanto é que transbordamos 
+				em sentimentos, sonhos, exatidão e… 
+			</p>
+			<a href=""><button>veja mais...</button></a>
+			</div>
+		</div>
+	
+		<div class="servico-item">
+			<div class="servico-info">
+				<img src="img/camera.png" alt="" class="servico-icon" width="50"
+			height="40">
+			<p class="servico-p"> 
+				O amor da Tati e do Daniel {Ensaio pré-casamento} | Bauru-SP
+				Não há como amar e não ser surpreendido por ele, pelo amor. 
+				Quando amamos, damos asas às nossas almas, damos 
+				infinitude ao nosso coração. Tanto é que transbordamos 
+				em sentimentos, sonhos, exatidão e… 
+			</p>
+			<a href=""><button>veja mais...</button></a>
+			</div>
+			<img src="img/15anos.jpg" alt="" class="servico-foto">
+		</div>
+	
+		<div class="servico-item">
+			<img src="img/pre-wedding.jpg" alt="" class="servico-foto">
+			<div class="servico-info">
+				<img src="img/camera.png" alt="" class="servico-icon" width="50"
+			height="40">
+			<p class="servico-p"> 
+				O amor da Tati e do Daniel {Ensaio pré-casamento} | Bauru-SP
+				Não há como amar e não ser surpreendido por ele, pelo amor. 
+				Quando amamos, damos asas às nossas almas, damos 
+				infinitude ao nosso coração. Tanto é que transbordamos 
+				em sentimentos, sonhos, exatidão e… 
+			</p>
+			<a href=""><button>veja mais...</button></a>
+			</div>
+		</div>
+	
+	</div>
+	</div>
+<!-------------- BANNER FIXO ---------------->
+
+	<div class="banner-fixo"></div>
+
+<!-------------- FOOTER ---------------->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col col-4 logo">
+					<img src="img/logo.png" alt="Logomarca" width="70" height="55">
+				</div>
+				<div class="col col-4 contato">
+					<p>
+						<span>Cesar Inácio Fotografo:</span> Rua. Tebas nº 515, Siqueira, Fortaleza-ce.<br> 
+						Telefone/WhatsApp <span>(85)98680-5722 / (85)99169-3857</span>
+					</p>
+				</div>
+				<div class="col col-4 midias">
+					<a href="https://www.facebook.com/inacio.cesar.58" target="_new"><img src="img/face.png" alt="Facebook" class="face" width="50" height="50" onMouseOver="this.src='img/face-hover.png'" onMouseOut="this.src='img/face.png'"></a>
+					<a href="https://www.instagram.com/cesarsilvafotografia/" target="_new"><img src="img/insta.png" alt="Instagram" class="insta" width="50" height="50" onMouseOver="this.src='img/insta-hover.png'" onMouseOut="this.src='img/insta.png'"></a>
+					<a href="#" target="_new"><img src="img/youtube.png" alt="Youtube" class="youtube" width="50" height="50" onMouseOver="this.src='img/youtube-hover.png'" onMouseOut="this.src='img/youtube.png'"></a>
+				</div>
 			</div>
 		</div>
 	</div>
 
+
+	<script src="js/menu.js"></script>
 
 </body>
 </html>

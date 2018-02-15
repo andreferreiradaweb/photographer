@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="css/default.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/slider.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 <body>
 
@@ -27,7 +29,7 @@
 			<div class="col col-8 nav menu">
 				<a href="index.html" class="nav link">Home</a>
 				<a href="#servicos" class="nav link">Serviços</a>
-				<a href="#deals" class="nav link">Promoções</a>
+				<a href="galeria.html" class="nav link">Galeria</a>
 				<a href="#about" class="nav link">Sobre</a>
 				<a href="#contact" class="nav link">Contatos</a>
 			</div>	
@@ -40,6 +42,7 @@
 	<section class="banner"></section>
 
 <!------------------ SOBRE ---------------------->
+<a name="about"></a>
 	<div class="container sobre">
 		<div class="row">
 			<div class="col col-12">
@@ -57,11 +60,12 @@
 	</div>
 	
 	<!------------------ SERVICOS ---------------------->
+	<a name="servicos"></a>
 	<div class="cont-servicos">
 	<div class="servicos">
 
 		<div class="servico-item">
-			<img src="img/wedding.jpg" alt="" class="servico-foto">
+			<a href="#"><img src="img/wedding.jpg" alt="" class="servico-foto"></a>
 			<div class="servico-info">
 				<img src="img/camera.png" alt="" class="servico-icon" width="50"
 			height="40">
@@ -89,11 +93,11 @@
 			</p>
 			<a href=""><button>veja mais...</button></a>
 			</div>
-			<img src="img/15anos.jpg" alt="" class="servico-foto">
+			<a href="#"><img src="img/15anos.jpg" alt="" class="servico-foto"></a>
 		</div>
 	
 		<div class="servico-item">
-			<img src="img/pre-wedding.jpg" alt="" class="servico-foto">
+			<a href="#"><img src="img/pre-wedding.jpg" alt="" class="servico-foto"></a>
 			<div class="servico-info">
 				<img src="img/camera.png" alt="" class="servico-icon" width="50"
 			height="40">
@@ -114,6 +118,32 @@
 
 	<div class="banner-fixo"></div>
 
+<!-------------- FORMULARIO ---------------->
+<a name="contact"></a>
+<div class="formulario">
+	<div class="container">
+		<div class="row">
+			<div class="col col-12">
+				<div class="col col-12">
+					<h1 class="title">Entre em contato agora mesmo...</h1>
+				</div>
+				<div class="formContato">
+				    <form id="formContato" tabindex="1" action="#" method="post">
+				        <div class="col col-12"><input id="nome" name="nome" required="" type="text" placeholder="Nome" class="width-100 nome" /></div>
+
+				        <div class="col col-12"><input id="email" name="email" required="" type="email" placeholder="Email" class="width-100 email" /></div>
+
+				        <div class="col col-12"><input id="tel" name="tel" type="tel" placeholder="Telefone" class="width-100 tel" /></div>
+
+				        <div class="col col-12"><textarea id="conteudo" name="conteudo" required="" placeholder="Deixe uma mensagem" class="width-100 textarea"></textarea></div>
+
+						<div class="col col-12 botao-form"><button type="submit">Enviar</button></div>
+					</form>
+				</div>	
+			</div>
+		</div>
+	</div>
+</div>
 <!-------------- FOOTER ---------------->
 	<div class="footer">
 		<div class="container">
@@ -124,13 +154,14 @@
 				<div class="col col-4 contato">
 					<p>
 						<span>Cesar Inácio Fotografo:</span> Rua. Tebas nº 515, Siqueira, Fortaleza-ce.<br> 
-						Telefone/WhatsApp <span>(85)98680-5722 / (85)99169-3857</span>
+						Telefone/WhatsApp <span>(85)98680-5722 / (85)99169-3857</span><br>
+						Email: <span>Inacio_csr@hotmail.com</span>
 					</p>
 				</div>
 				<div class="col col-4 midias">
 					<a href="https://www.facebook.com/inacio.cesar.58" target="_new"><img src="img/face.png" alt="Facebook" class="face" width="50" height="50" onMouseOver="this.src='img/face-hover.png'" onMouseOut="this.src='img/face.png'"></a>
 					<a href="https://www.instagram.com/cesarsilvafotografia/" target="_new"><img src="img/insta.png" alt="Instagram" class="insta" width="50" height="50" onMouseOver="this.src='img/insta-hover.png'" onMouseOut="this.src='img/insta.png'"></a>
-					<a href="#" target="_new"><img src="img/youtube.png" alt="Youtube" class="youtube" width="50" height="50" onMouseOver="this.src='img/youtube-hover.png'" onMouseOut="this.src='img/youtube.png'"></a>
+					<a href="https://www.youtube.com/channel/UCVjjX1jxupTHZJS-fAW12sQ" target="_new"><img src="img/youtube.png" alt="Youtube" class="youtube" width="50" height="50" onMouseOver="this.src='img/youtube-hover.png'" onMouseOut="this.src='img/youtube.png'"></a>
 				</div>
 			</div>
 		</div>
@@ -138,6 +169,7 @@
 
 
 	<script src="js/menu.js"></script>
+	<script src="js/scroll.js"></script>
 
 </body>
 </html>

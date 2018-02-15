@@ -137,6 +137,65 @@ nav.nav {
 }
 /* BANNER FIXO */
 
+/* FORMULÁRIO */
+form .textarea{
+  height:200px;
+  background-color: #1d1c21;
+  border-bottom: 2px solid #606060;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  color:#606060;
+}
+form .nome{
+  background-color: #1d1c21;
+  border-bottom: 2px solid #606060;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  color:#606060;
+}
+form .email{
+  background-color: #1d1c21;
+  border-bottom: 2px solid #606060;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  color:#606060;
+}
+form .tel{
+  background-color: #1d1c21;
+  border-bottom: 2px solid #606060;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  color:#606060;
+}
+.botao-form button{
+  float:right;
+  border: 2px solid #606060;
+  background-color: #1d1c21;
+  color:#606060;
+  text-transform: uppercase;
+  transition: all .5s;
+}
+.botao-form button:hover{
+  background-color: #606060;
+  color:#1d1c21;
+  cursor:pointer;
+  transition: all .5s;
+}
+
+.formulario{
+  padding: 50px 0 100px 0;
+  background-color: #1d1c21;
+  border-bottom: 1px solid #606060;
+}
+.formulario .title{
+  text-align: center;
+  color:#808080;
+}
+
 /* FOOTER */
 .footer{
   display: flex;

@@ -1,0 +1,34 @@
+@media screen and (max-width: 400px){
+	body{
+		font-size: 1.3rem;
+	}
+	/* BANNER */
+	.banner .conteudo p{
+		font-size: 13px;
+	}
+	.banner .conteudo img{
+		width: 30px;
+		height: 30px;
+	}
+	/* SOBRE */
+	.sobre{
+		padding: 20px 0 !important;
+	}
+	.flexbox-justify-center{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.sobre-nome{
+		font-size: 25px;
+	}
+	/* SERVIÇOS */
+	
+
+@media screen and (max-width: 800px){
+
+}
+
+@media screen and (max-width: 1143px){
+
+}

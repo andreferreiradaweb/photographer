@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <!--- Sweet Alert CDN -->
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
 <body>
@@ -32,8 +30,7 @@
                 </div>
                 <div class="col col-8 nav menu">
                     <a href="index.html" class="nav link">Página Inicial</a>
-                    <a href="#about" class="nav link">Sobre</a>
-                    <a href="#servicos" class="nav link">Serviços</a>
+                    <a href="about.html" class="nav link">Sobre</a>
                     <a href="portifolio.html" class="nav link">Portifólio</a>
                     <a href="#contact" class="nav link">Contatos</a>
                 </div>
@@ -41,87 +38,27 @@
         </div>
     </div>
 
-    <!-------------- BANNER -------------------->
+    <!-------------- Galeria de fotos -------------->
 
-
-    <div class="banner">
-        <!--Aqui você coloca o seu vídeo rodando normal-->
-        <video muted autoplay="true" loop>
-            <source src="videobackground.mp4" type="video/mp4">
-        </video>
-  
-        <div class="mascara-video">
-        <!--Máscara do video-->
-        </div>
-        <!--Aqui você coloca todo conteudo que vai ficar em cima do banner-->
-        <div class="conteudo">
-         <p class="banner-p texto1">Solicite agora mesmo nossos serviços</p>
-         <p class="banner-p texto2">E garanta um desconto especial...</p>
-         <a href="#contact"><img src="img/botao.png" alt="Botão que redireciona para o formulário" width="50" height="50" onMouseOver="this.src='img/botao-hover.png'" onMouseOut="this.src='img/botao.png'" class="banner-botao"></a>
-        </div>
-        
-    </div>
-
-    <!------------------ SOBRE ---------------------->
-    <a name="about"></a>
-    <div class="container sobre">
+    <div class="container">
         <div class="row">
-            <div class="col col-4 flexbox-justify-center">
-                <img src="img/sobre-img2.png" alt="Foto do Cesar Silva Fotógrafo" class="sobre-img" width="200" height="200">  
+            <div class="col col-12 navegacao"><p><a href="index.html">Pagina inicial</a> > <span>Galeria</span></p></div>
+            <div class="col col-4 opcao-galeria">
+                <a href="casamento.html"><img src="img/wedding.jpg" alt="" width="200" height="200"></a>
+                <p>Fotos de Casamentos</p>
             </div>
-            <div class="col col-8">
-                <h1 class="sobre-nome">Cesar Silva Fotografia</h1>
-                <p class="sobre-p">
-                    “Olá, Como andam as preparações para o dia mais importante da sua vida? Eu, sou César Silva, fotografo especializado em fotografia de casamento, fotos debutante, book externo e pre-wedding de casal, e irei revelar como você pode eternizzar seu casamento ou sua festa de debutante com muita sensibilidade, qualidade e técnica.”
-                </p>
-                <a href="about.html"><button class="botao destacado">Ler mais...</button></a>
+            
+            <div class="col col-4 opcao-galeria">
+                <a href="15anos.html"><img src="img/15anos.jpg" alt="" width="200" height="200"></a>
+                <p>15 Anos</p>
+            </div>
+            
+            <div class="col col-4 opcao-galeria">
+                <a href="pre-casamento.html"><img src="img/pre-wedding.jpg" alt="" width="200" height="200"></a>
+                <p>Fotos de Pre-casamento</p>
             </div>
         </div>
     </div>
-
-    <!------------------ SERVICOS ---------------------->
-    <a name="servicos"></a>
-    <div class="cont-servicos">
-        <div class="servicos">
-
-            <div class="servico-item">
-                <a href="#"><img src="img/wedding.jpg" alt="" class="servico-foto"></a>
-                <div class="servico-info">
-                    <img src="img/camera.png" alt="" class="servico-icon" width="50" height="40">
-                    <p class="servico-p">
-                       Fotografia de Casamentos, para os casais que se emociona com a vida e amam reviver cada momento através de imagens e lindos registros.
-                    </p>
-                    <a href="casamento.html"><button class="botao destacado">veja mais...</button></a>
-                </div>
-            </div>
-
-            <div class="servico-item">
-                <div class="servico-info">
-                    <img src="img/camera.png" alt="" class="servico-icon" width="50" height="40">
-                    <p class="servico-p">
-                        Antes da grande festa, é muito importante que a aniversariante registre seu momento de  felicidade e realização com um belo ensaio fotográfico, para guardar com carinho o início de uma nova fase.
-                    </p>
-                    <a href="15anos.html"><button class="botao destacado">veja mais...</button></a>
-                </div>
-                <a href="#"><img src="img/15anos.jpg" alt="" class="servico-foto"></a>
-            </div>
-
-            <div class="servico-item">
-                <a href="#"><img src="img/pre-wedding.jpg" alt="" class="servico-foto"></a>
-                <div class="servico-info">
-                    <img src="img/camera.png" alt="" class="servico-icon" width="50" height="40">
-                    <p class="servico-p">
-                        Fotos de pre-casamento é a melhor forma de se preparar para um dos momentos mais importantes de nossas vidas, o casamento. O objetivo é deixa-los preparados e compreender a fundo os gostos e perfil do casal.
-                    </p>
-                    <a href="pre-casamento.html"><button class="botao destacado">veja mais...</button></a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-------------- BANNER FIXO ---------------->
-
-    <div class="banner-fixo"></div>
 
     <!-------------- FORMULARIO ---------------->
     <a name="contact"></a>
@@ -158,7 +95,7 @@
                     <img src="img/logo.png" alt="Logomarca" width="70" height="55">
                 </div>
                 <div class="col col-4 contato">
-                    <p>
+                     <p>
                         <span>Cesar Inácio Fotografo:</span> Rua. Tebas nº 515, Siqueira, Fortaleza-ce.<br> Telefone/WhatsApp <span>(85)98680-5722 / (85)99169-3857</span><br> Email: <span>Inacio_csr@hotmail.com</span><br>
                         Site desenvolvido por: <span><a href="http://fb.com/andreluissf" target="_new">André Ferreira</a></span> 
                     </p>

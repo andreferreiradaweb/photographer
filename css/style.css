@@ -27,7 +27,7 @@ nav.nav {
   padding: 1rem 0 .3rem; }
 
 .nav a {
-  transition: all .3s;
+  transition: all .5s;
   display: inline-block;
   color: #f2a519;
   text-decoration: none;
@@ -35,13 +35,16 @@ nav.nav {
   padding-left: 0; }
 
 .nav a:visited {
-  color: #f2a519; }
+  color: #f2a519;
+}
 
 .nav.menu a:hover {
-  background-color: #F2C640;
+  transition: all .5s;
+  text-decoration: underline;
   cursor: pointer;
-  color: #fff;
-  transition: all .3s; }
+  transition: all .3s;
+  color:#fff; 
+}
 
 .nav.menu {
   display: flex;
@@ -120,23 +123,19 @@ nav.nav {
 
 /* SOBRE */
 .sobre{
-  padding: 100px 20px;
+  padding: 100px 0;
 }
 .sobre-nome{
-  margin: 50px auto;
-  width: 600px;
-  text-align: end;
+  text-align: center;
   color:#f2a519;
   background-color: #1d1c21;
-  padding-right: 80px;
+  
 }
 .sobre-img{
-  margin-top: -117px;
-  float:left;
+  max-width: 100%;
 }
 .sobre-p{
-  float: right;
-  width: 700px;
+
 }
 /* FIM DO SOBRE */
 
@@ -263,9 +262,69 @@ form .tel{
 .footer .contato span{
   color:#707070;
 }
+.footer .contato a{
+  color:#707070;
+}
+.footer .contato a:hover{
+  color:#505050;
+  text-decoration: none;
+}
 .footer .midias{
   display: flex;
   justify-content: space-around;
   align-items: center;
   
+}
+
+/* BOTOES */
+.sobre button{
+  float: right;
+}
+
+.sobre .botao.destacado,.sobre button.botao.destacado,
+.sobre input[type="button"].botao.destacado{
+  background-color: #fff;
+  border: 2px solid #f2a519;
+  color:#f2a519;
+  transition: all .5s;
+}
+
+.sobre .botao.destacado:hover,.sobre button.botao.destacado:hover,
+.sobre .botao.destacado:focus,.sobre button.botao.destacado:focus,
+.sobre input[type="button"].botao.destacado:focus{
+  background-color: #f2a519;
+  cursor: pointer;
+  color:#fff;
+  transition: all .5s;
+}
+
+.servico-info .botao.destacado,.servico-info button.botao.destacado,
+.servico-info input[type="button"].botao.destacado{
+  background-color: #fff;
+  border: 2px solid #f2a519;
+  color:#f2a519;
+  transition: all .5s;
+}
+
+.servico-info .botao.destacado:hover,.servico-info button.botao.destacado:hover,
+.servico-info .botao.destacado:focus,.servico-info button.botao.destacado:focus,
+.servico-info input[type="button"].botao.destacado:focus{
+  background-color: #f2a519;
+  cursor: pointer;
+  color:#fff;
+  transition: all .5s;
+}
+
+/* PAGINA SOBRE */
+.about{
+  padding: 100px 0;
+}
+
+.about-img{
+  max-width: 100%;
+
+}
+.about-title{
+  color:#f2a519;
+  border-top: 3px solid #f2a519;
 }

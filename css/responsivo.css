@@ -18,11 +18,33 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		flex-direction: column;
 	}
 	.sobre-nome{
 		font-size: 25px;
+		padding: 5px;
 	}
 	/* SERVIÇOS */
+	.servicos{
+		display: flex;
+    	flex-direction: column;
+	}
+	.servicos .servico-item{
+		width: 100%;
+	}
+	.order:nth-child(2){
+		order:1;
+	}
+	/* FORMULARIO */
+	.botao-form{
+		margin-top: 20px;
+		justify-content: center;
+    	align-self: center;
+    	display: flex;
+	}
+	.formulario h1{
+		font-size: 25px;
+	}
 	
 
 @media screen and (max-width: 800px){
